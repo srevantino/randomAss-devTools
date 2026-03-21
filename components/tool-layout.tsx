@@ -15,7 +15,20 @@ import {
   Keyboard,
   ChevronLeft,
   Menu,
-  X
+  X,
+  Hash,
+  FileCode,
+  Activity,
+  Search,
+  FileText,
+  Image,
+  Layers,
+  Palette,
+  TerminalSquare,
+  Database,
+  Network,
+  Bot,
+  BookOpen
 } from "lucide-react"
 import { useState } from "react"
 import { cn } from "@/lib/utils"
@@ -30,6 +43,19 @@ const tools = [
   { name: "IP Info", href: "/ip-info", icon: MapPin },
   { name: "SSL Checker", href: "/ssl-checker", icon: Shield },
   { name: "Typing Test", href: "/typing-test", icon: Keyboard },
+  { name: "Hash", href: "/hash-generator", icon: Hash },
+  { name: "Base64", href: "/base64", icon: FileCode },
+  { name: "Ping", href: "/ping", icon: Activity },
+  { name: "WHOIS", href: "/whois", icon: Search },
+  { name: "Words", href: "/word-counter", icon: FileText },
+  { name: "Favicon", href: "/favicon", icon: Image },
+  { name: "Flexbox", href: "/flexbox", icon: Layers },
+  { name: "Gradient", href: "/gradient", icon: Palette },
+  { name: "Linux", href: "/linux", icon: TerminalSquare },
+  { name: "SQL", href: "/sql", icon: Database },
+  { name: "Tailscale", href: "/tailscale", icon: Network },
+  { name: "Ollama", href: "/ollama", icon: Bot },
+  { name: "README", href: "/readme", icon: BookOpen },
 ]
 
 interface ToolLayoutProps {

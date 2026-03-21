@@ -12,7 +12,20 @@ import {
   Shield, 
   Keyboard,
   Terminal,
-  ArrowRight
+  ArrowRight,
+  Hash,
+  FileCode,
+  Activity,
+  Search,
+  FileText,
+  Image,
+  Layers,
+  Palette,
+  TerminalSquare,
+  Database,
+  Network,
+  Bot,
+  BookOpen
 } from "lucide-react"
 
 const tools = [
@@ -87,6 +100,110 @@ const tools = [
     icon: Keyboard,
     color: "from-red-500/20 to-pink-500/20",
     iconColor: "text-red-400"
+  },
+  {
+    name: "Hash Generator",
+    description: "Generate MD5, SHA1, SHA256 hashes from any text input.",
+    href: "/hash-generator",
+    icon: Hash,
+    color: "from-indigo-500/20 to-blue-500/20",
+    iconColor: "text-indigo-400"
+  },
+  {
+    name: "Base64 Encoder",
+    description: "Encode and decode text or files to and from Base64.",
+    href: "/base64",
+    icon: FileCode,
+    color: "from-cyan-500/20 to-teal-500/20",
+    iconColor: "text-cyan-400"
+  },
+  {
+    name: "Ping Checker",
+    description: "Check response time and latency of any URL.",
+    href: "/ping",
+    icon: Activity,
+    color: "from-lime-500/20 to-green-500/20",
+    iconColor: "text-lime-400"
+  },
+  {
+    name: "WHOIS Lookup",
+    description: "Look up domain registration and ownership information.",
+    href: "/whois",
+    icon: Search,
+    color: "from-fuchsia-500/20 to-pink-500/20",
+    iconColor: "text-fuchsia-400"
+  },
+  {
+    name: "Word Counter",
+    description: "Count words, characters, sentences, and reading time.",
+    href: "/word-counter",
+    icon: FileText,
+    color: "from-amber-500/20 to-yellow-500/20",
+    iconColor: "text-amber-400"
+  },
+  {
+    name: "Favicon Generator",
+    description: "Upload an image and generate .ico favicon files.",
+    href: "/favicon",
+    icon: Image,
+    color: "from-rose-500/20 to-red-500/20",
+    iconColor: "text-rose-400"
+  },
+  {
+    name: "Flexbox Playground",
+    description: "Visual flex container builder with live CSS output.",
+    href: "/flexbox",
+    icon: Layers,
+    color: "from-purple-500/20 to-violet-500/20",
+    iconColor: "text-purple-400"
+  },
+  {
+    name: "Gradient Studio",
+    description: "Multi-stop gradient builder with angle and type controls.",
+    href: "/gradient",
+    icon: Palette,
+    color: "from-gradient-to-r from-pink-500/20 to-orange-500/20",
+    iconColor: "text-pink-400"
+  },
+  {
+    name: "Linux/Bash Commands",
+    description: "Comprehensive cheatsheet for file ops, networking, and more.",
+    href: "/linux",
+    icon: TerminalSquare,
+    color: "from-slate-500/20 to-gray-500/20",
+    iconColor: "text-slate-400"
+  },
+  {
+    name: "SQL Cheatsheet",
+    description: "SELECT, JOINs, GROUP BY, window functions, and common patterns.",
+    href: "/sql",
+    icon: Database,
+    color: "from-blue-500/20 to-indigo-500/20",
+    iconColor: "text-blue-400"
+  },
+  {
+    name: "Tailscale/Headscale",
+    description: "Commands for Tailscale and self-hosted Headscale setup.",
+    href: "/tailscale",
+    icon: Network,
+    color: "from-sky-500/20 to-cyan-500/20",
+    iconColor: "text-sky-400"
+  },
+  {
+    name: "Ollama Commands",
+    description: "Pull, run, list models, create modelfiles, and API usage.",
+    href: "/ollama",
+    icon: Bot,
+    color: "from-emerald-500/20 to-green-500/20",
+    iconColor: "text-emerald-400"
+  },
+  {
+    name: "README Generator",
+    description: "Generate professional README.md files with badges and sections.",
+    href: "/readme",
+    icon: BookOpen,
+    color: "from-amber-500/20 to-orange-500/20",
+    iconColor: "text-amber-400"
   }
 ]
 
