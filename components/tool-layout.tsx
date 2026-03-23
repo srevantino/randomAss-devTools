@@ -28,7 +28,15 @@ import {
   Database,
   Network,
   Bot,
-  BookOpen
+  BookOpen,
+  Boxes,
+  Radio,
+  AlertCircle,
+  CheckSquare,
+  FileWarning,
+  Cpu,
+  HardDrive,
+  Server
 } from "lucide-react"
 import { useState } from "react"
 import { cn } from "@/lib/utils"
@@ -56,6 +64,14 @@ const tools = [
   { name: "Tailscale", href: "/tailscale", icon: Network },
   { name: "Ollama", href: "/ollama", icon: Bot },
   { name: "README", href: "/readme", icon: BookOpen },
+  { name: "Compose", href: "/docker-compose", icon: Boxes },
+  { name: "API Status", href: "/api-status", icon: Radio },
+  { name: "Is It Down", href: "/is-it-down", icon: AlertCircle },
+  { name: "12 Factor", href: "/twelve-factor", icon: CheckSquare },
+  { name: "Incident", href: "/incident-report", icon: FileWarning },
+  { name: "AI Models", href: "/ai-models", icon: Cpu },
+  { name: "VRAM Picker", href: "/ollama-picker", icon: HardDrive },
+  { name: "Self-Hosted", href: "/self-hosted", icon: Server },
 ]
 
 interface ToolLayoutProps {

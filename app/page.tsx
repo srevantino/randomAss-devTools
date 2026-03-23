@@ -25,7 +25,15 @@ import {
   Database,
   Network,
   Bot,
-  BookOpen
+  BookOpen,
+  Boxes,
+  Radio,
+  AlertCircle,
+  CheckSquare,
+  FileWarning,
+  Cpu,
+  HardDrive,
+  Server
 } from "lucide-react"
 
 const tools = [
@@ -204,6 +212,70 @@ const tools = [
     icon: BookOpen,
     color: "from-amber-500/20 to-orange-500/20",
     iconColor: "text-amber-400"
+  },
+  {
+    name: "Docker Compose Builder",
+    description: "Visual UI to build docker-compose.yml with services, volumes, and networks.",
+    href: "/docker-compose",
+    icon: Boxes,
+    color: "from-blue-500/20 to-sky-500/20",
+    iconColor: "text-blue-400"
+  },
+  {
+    name: "API Status Dashboard",
+    description: "Live status of popular APIs: GitHub, Cloudflare, Vercel, npm.",
+    href: "/api-status",
+    icon: Radio,
+    color: "from-green-500/20 to-emerald-500/20",
+    iconColor: "text-green-400"
+  },
+  {
+    name: "Is It Down?",
+    description: "Check if a site is down globally or just from your location.",
+    href: "/is-it-down",
+    icon: AlertCircle,
+    color: "from-red-500/20 to-rose-500/20",
+    iconColor: "text-red-400"
+  },
+  {
+    name: "12 Factor Checklist",
+    description: "Interactive checklist of the 12 factor app methodology.",
+    href: "/twelve-factor",
+    icon: CheckSquare,
+    color: "from-violet-500/20 to-purple-500/20",
+    iconColor: "text-violet-400"
+  },
+  {
+    name: "Incident Report",
+    description: "Generate professional postmortem reports for incidents.",
+    href: "/incident-report",
+    icon: FileWarning,
+    color: "from-orange-500/20 to-red-500/20",
+    iconColor: "text-orange-400"
+  },
+  {
+    name: "AI Model Comparator",
+    description: "Side-by-side specs of Llama, Mistral, Phi, Gemma, Qwen models.",
+    href: "/ai-models",
+    icon: Cpu,
+    color: "from-cyan-500/20 to-blue-500/20",
+    iconColor: "text-cyan-400"
+  },
+  {
+    name: "Ollama Model Picker",
+    description: "Enter your VRAM to see which models you can run locally.",
+    href: "/ollama-picker",
+    icon: HardDrive,
+    color: "from-emerald-500/20 to-teal-500/20",
+    iconColor: "text-emerald-400"
+  },
+  {
+    name: "Self-Hosted Apps",
+    description: "Searchable catalog of self-hostable apps with requirements.",
+    href: "/self-hosted",
+    icon: Server,
+    color: "from-slate-500/20 to-zinc-500/20",
+    iconColor: "text-slate-400"
   }
 ]
 
