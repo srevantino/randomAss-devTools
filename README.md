@@ -1,35 +1,54 @@
-# helpful-tools
+# Helpful Tools
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+A dev-focused toolbox website with small utilities (e.g. generators, converters, reference pages).
 
-## Built with v0
+- Feedback and recommendations are welcome. Open an issue or PR, or tell me what you want changed/added.
+- If this project helps you, you can donate here: `https://github.com/sponsors/srevantino`
+- Disclosure: this project was made with help from AI (and iterated on by a human).
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+## Website info (copy you can reuse)
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_hj4jkr7XfRKTnGfcROV9ityuh8On)
+Helpful Tools is a collection of lightweight, developer-friendly tools you can run locally or deploy. If you have suggestions, tool ideas, or want changes, please open an issue with what you’d like and why.
 
-## Getting Started
+Built with AI assistance; reviewed/curated by a human.
 
-First, run the development server:
+## For developers
+
+### Tech stack
+
+- Next.js (App Router)
+- React + TypeScript
+- Tailwind
+
+### Local development
+
+Install deps and start the dev server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Scripts
 
-## Learn More
+- `npm run dev`: start dev server
+- `npm run build`: production build
+- `npm run start`: start production server
+- `npm run lint`: run ESLint
 
-To learn more, take a look at the following resources:
+### Project structure (high level)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+- `app/`: routes (each tool/page lives under its own folder)
+- `components/`: shared UI/components
 
-<a href="https://v0.app/chat/api/kiro/clone/srevantino/helpful-tools" alt="Open in Kiro"><img src="https://pdgvvgmkdvyeydso.public.blob.vercel-storage.com/open%20in%20kiro.svg?sanitize=true" /></a>
+## Contributing / suggestions
+
+- **Tool requests**: open an issue with the tool name, inputs/outputs, and example usage.
+- **Bug reports**: include the URL/path, expected vs actual behavior, and screenshots/logs if relevant.
+- **PRs**: keep changes focused; include a short test plan.
+
+## License
+
+MIT. See `LICENSE`.

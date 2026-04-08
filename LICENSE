@@ -1,110 +1,21 @@
-PROPRIETARY WEBSITE LICENSE
-Copyright (c) 2026 Advaned Systems 4042. All rights reserved.
+MIT License
 
-This website is owned and managed by Advaned Systems 4042.
+Copyright (c) 2026 Vishvaaraj Jegaraj
 
-════════════════════════════════════════════════════════════════════════════════
-DEFINITIONS
-════════════════════════════════════════════════════════════════════════════════
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-"Website" refers to Helpful Tools, including all source code, compiled
-binaries, documentation, assets, tools, utilities, and any related materials
-contained in this repository.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-"Copyright Holder" refers to Advance Systems 4042.
-
-"Commercial Use" means any use of the Website or its tools, in whole or in
-part, that is intended for or directed toward commercial advantage, monetary
-compensation, or business operations of any kind, including but not limited
-to: deploying the Website or any of its tools in a paid product or service,
-using the Website internally within a for-profit organization, integrating
-any tool or utility from the Website into a commercial offering, or
-redistributing the tools in any form for profit.
-
-"Explicit Written Consent" means a signed, written agreement issued directly
-by the Copyright Holder granting specific permissions to a named individual or
-organization.
-
-════════════════════════════════════════════════════════════════════════════════
-1. GRANT OF RIGHTS
-════════════════════════════════════════════════════════════════════════════════
-
-No rights are granted by default. All rights are reserved by the Copyright
-Holder unless explicitly stated in writing.
-
-You MAY:
-  - Access and use the tools on this Website for personal, educational, or
-    non-commercial purposes only.
-  - View and read the source code for personal, educational, or evaluation
-    purposes only.
-
-You MAY NOT, without Explicit Written Consent from the Copyright Holder:
-  - Use, copy, modify, merge, publish, distribute, or sublicense the Website
-    or any of its tools.
-  - Use the Website or any of its tools for any Commercial Use.
-  - Incorporate the Website or any individual tool, in whole or in part, into
-    another product or project.
-  - Deploy the Website or any of its tools in any production, staging, or
-    live environment outside of this Website.
-
-════════════════════════════════════════════════════════════════════════════════
-2. COMMERCIAL USE — CONTACT REQUIREMENT
-════════════════════════════════════════════════════════════════════════════════
-
-Commercial Use of this Website or any of its tools is strictly prohibited
-without prior written agreement. Any party wishing to use this Website or
-its tools for Commercial Use MUST:
-
-  (a) Contact the Copyright Holder and request a Commercial License Agreement.
-
-  (b) Receive Explicit Written Consent from the Copyright Holder prior to any
-      Commercial Use.
-
-  (c) Comply with any terms, conditions, or fees agreed upon between the
-      requesting party and the Copyright Holder, UNLESS the Copyright Holder
-      has issued a written waiver explicitly stating otherwise for that
-      specific party or use case.
-
-A payment waiver does not grant any rights beyond what is stated in the
-accompanying written agreement. The Copyright Holder reserves the right to
-revoke any waiver with 30 days written notice.
-
-════════════════════════════════════════════════════════════════════════════════
-3. CONTRIBUTIONS & REPOSITORY ACCESS
-════════════════════════════════════════════════════════════════════════════════
-
-No individual, organization, or automated system is permitted to push, commit,
-merge, or otherwise contribute code or content to this repository without
-Explicit Written Consent from the Copyright Holder.
-
-Any unsolicited contributions are automatically rejected and do not transfer
-any rights or obligations to the Copyright Holder.
-
-════════════════════════════════════════════════════════════════════════════════
-4. NO WARRANTY
-════════════════════════════════════════════════════════════════════════════════
-
-THE WEBSITE AND ALL TOOLS PROVIDED ARE OFFERED "AS IS", WITHOUT WARRANTY OF
-ANY KIND, EXPRESS OR IMPLIED. THE COPYRIGHT HOLDER SHALL NOT BE LIABLE FOR
-ANY CLAIM, DAMAGE, OR OTHER LIABILITY ARISING FROM THE USE OR INABILITY TO
-USE THE WEBSITE OR ANY OF ITS TOOLS.
-
-════════════════════════════════════════════════════════════════════════════════
-5. ENFORCEMENT
-════════════════════════════════════════════════════════════════════════════════
-
-Any use of this Website or its tools in violation of this license is
-considered copyright infringement and may be subject to legal action under
-applicable intellectual property laws.
-
-════════════════════════════════════════════════════════════════════════════════
-CONTACT
-════════════════════════════════════════════════════════════════════════════════
-
-To request a Commercial License or written consent, contact:
-
-  Name  : [Vishvaaraj Jegaraj]
-  Email : [srevantino@gmail.com]
-  GitHub: [github.com/srevantino]
-
-════════════════════════════════════════════════════════════════════════════════
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
