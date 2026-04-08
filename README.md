@@ -50,5 +50,4 @@ Then open `http://localhost:3000`.
 - **PRs**: keep changes focused; include a short test plan.
 
 ## License
-
-MIT. See `LICENSE`.
+Apache 2.0 License. See `LICENSE`.
